@@ -10,3 +10,8 @@ class Bilar:
         self.gerdbils = gerdbils
         self.athugasemd = athugasemd
 
+class Pantanir:
+    def __init__(self, AudkenniVidskiptavinar, DagsBillPantadur, athugasemdPnt):
+        self.AudkenniVidskiptaevinar = AudkenniVidskiptavinar
+        self.DagsBillPantadur = DagsBillPantadur
+        self.athugasemdPnt = athugasemdPnt
